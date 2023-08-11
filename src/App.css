@@ -1,0 +1,15 @@
+/* Cambiar el fondo de la pista (track) */
+.form-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  background: #aaa; /* Cambia este color al que desees */
+  border-radius: 5px;
+}
+
+/* Cambiar el fondo de la pista (track) en navegadores que no usan WebKit */
+.form-range::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  background: #ddd; /* Cambia este color al que desees */
+  border-radius: 5px;
+}

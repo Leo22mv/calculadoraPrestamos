@@ -66,7 +66,7 @@ function App() {
 
 				<input
 					type='range'
-					className='w-full h-6'
+					className='w-full h-6 form-range'
 					onChange={ handleChange }
 					min={ MIN }
 					max={ MAX }
